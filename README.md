@@ -1,10 +1,10 @@
+![python](https://img.shields.io/badge/python-green)
+
 # getPaid
 
 This tool calculates total earnings in a given pay period using Google Calendar APIs
 
 ## Getting Started
-
-
 
 ### Installing
 
