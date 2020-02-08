@@ -1,4 +1,4 @@
-![python](https://img.shields.io/badge/python-green)
+![python](https://img.shields.io/badge/version-1.0-green)
 
 # getPaid
 
