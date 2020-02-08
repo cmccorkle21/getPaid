@@ -55,7 +55,3 @@ Enter the pay period end date in mm/dd/yyyy format
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Christina Snyder, Computer Science, Pace Academy
