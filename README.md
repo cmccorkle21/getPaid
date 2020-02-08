@@ -30,7 +30,7 @@ Download getPaid-master to a directory of your choice:
 Install these using pip or however your IDE handles libraries.
 
 ### Setup
-Run `quickstart.py` Sign in to your google account in the browser window, then return to the terminal.
+Follow instructions [https://developers.google.com/calendar/quickstart/python](here) to authenticate the Google Calendar API
 
 ## Usage
 Enter the pay rate as the third argument in the function call in line 50
