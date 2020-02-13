@@ -16,8 +16,11 @@ if os.path.exists('token.pickle'):
 def revenue(periodStart, periodEnd, payRate):  # Strings in form MM/DD/YY
     service = build('calendar', 'v3', credentials=creds)
 
-    periodStartDateTime = datetime.strptime(periodStart, "%m/%d/%Y")
-    periodEndDateTime = datetime.strptime(periodEnd, "%m/%d/%Y")
+    fullStart = (periodStart + " 00:00:00")
+    fullEnd = (periodEnd + " 23:59:59")
+
+    periodStartDateTime = datetime.strptime(fullStart, "%m/%d/%Y %H:%M:%S")
+    periodEndDateTime = datetime.strptime(fullEnd, "%m/%d/%Y %H:%M:%S")
 
     rfcStart = generate(periodStartDateTime, accept_naive=True)
     rfcEnd = generate(periodEndDateTime, accept_naive=True)
