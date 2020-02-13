@@ -27,6 +27,8 @@ Download getPaid-master to a directory of your choice:
 
 `google-calendar-api-client-python`
 
+`pyrfc3339`
+
 Install these using pip or however your IDE handles libraries.
 
 ### Setup
